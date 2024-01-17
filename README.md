@@ -1,8 +1,8 @@
-# [Your Project Title Here]
+# Time series forecasting of energy demand in Germany
 
 ## Repository Link
 
-[https://github.com/your_username/your_project_name]
+https://github.com/EjoelM/Opencampus_SH_TimeSeries_Energy
 
 ## Description
 
