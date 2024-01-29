@@ -36,7 +36,7 @@ def get_input_data(use_darts: bool = False) -> Union[pd.DataFrame, TimeSeries]:
         for i in range(len(air_temperature_path))
     )
     load_df.index = pd.to_datetime(load_df.index)
-    load_df = load_df.resample('H').sum(min_count=1)
+    load_df = load_df.resample('h').sum(min_count=1)
     load_df['Temperature'] = temp_df['value'].to_list()
 
     if use_darts:
