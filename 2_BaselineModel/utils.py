@@ -22,7 +22,8 @@ def search_optimal_params(param_combinations: list, train_set: pd.DataFrame) -> 
         order = params[:3]
         seasonal_order = params[3:]
         endog=train_set["Load"]
-        exog=train_set[['hour', 'day_of_week', 'day', 'month', 'day_of_year', 'is_weekend']]
+        # exog=train_set[['Temperature', 'hour', 'day_of_week', 'day', 'month', 'day_of_year', 'is_weekend']]
+        exog=train_set[['Temperature', 'hour',  'is_weekend']]
 
         try:
             model = sm.tsa.SARIMAX(endog=endog, exog=exog, order=order, seasonal_order=seasonal_order)
