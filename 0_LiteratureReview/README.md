@@ -30,7 +30,7 @@ Approaches or solutions that have been tried before on similar projects.
  
 - **Source 4**: Predicting Energy Consumption Using LSTM, Multi-Layer GRU and Drop-GRU Neural Networks (Mahjoub et al., 2022)
  
-  - **[Link](https://www.mdpi.com/1424-8220/22/11/4062)
+  - **[Link](https://www.mdpi.com/1424-8220/22/11/4062)**
   - **Objective**: Predicting energy consumption using a number of Neural Network models (NNM)
   - **Methods**: Three NNMs were used: LSTM, Multi-layer GRU and Drop-GRU.
   - **Outcomes**: In the setting used in this paper (i.e. power consumption in some French cities), the LSTM outperformed the other two models. 
