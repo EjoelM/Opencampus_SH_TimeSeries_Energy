@@ -6,7 +6,7 @@ Approaches or solutions that have been tried before on similar projects.
 
 - **Source 1**: Short-term office building elevator energy consumption forecast using SARIMA
 
-  - **[Link]()**
+  - **[Link](https://www.tandfonline.com/doi/full/10.1080/19401493.2019.1698657)**
   - **Objective**:Forecast of energy consumption of a green-elevator
   - **Methods**: Use of three variations of SARIMA model (daily, hourly and 15-min data)  
   - **Outcomes**: The model with the highest accruacy (measured mainly with the MAPE indicator) was the SARIMA model using hourly data. 
