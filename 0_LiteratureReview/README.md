@@ -28,7 +28,7 @@ Approaches or solutions that have been tried before on similar projects.
   - **Outcomes**: In terms of accuracy (several indicators were considered such as RMSE, MAE, R^2 etc.), the GRU outperformed the other two models. The RNN model exhibits the most "modest" results. 
   - **Relation to the Project**: It firstly shows that deep learning models are more and more common in forecasting energy consumption. Secondly, we wanted to learn more about how such models can be used in forecasting energy consumption.
  
-  - **Source 4**: Predicting Energy Consumption Using LSTM, Multi-Layer GRU and Drop-GRU Neural Networks (Mahjoub et al., 2022)
+- **Source 4**: Predicting Energy Consumption Using LSTM, Multi-Layer GRU and Drop-GRU Neural Networks (Mahjoub et al., 2022)
  
   - **[Link](https://www.mdpi.com/1424-8220/22/11/4062)
   - **Objective**: Predicting energy consumption using a number of Neural Network models (NNM)
